@@ -1,0 +1,75 @@
+OS: Linux Y 3.8.0-32-generic #47-Ubuntu SMP Tue Oct 1 22:35:23 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
+CPU: Core i3-2100
+RAM: 12GB
+
+
+Python 2.7.5:
+
+=== json decode ===
+1154.81165696 call(s)/s
+=== json encode ===
+2772.28670373 call(s)/s
+=== simplejson decode ===
+2542.15202604 call(s)/s
+=== simplejson encode ===
+2781.99003597 call(s)/s
+=== ujson decode ===
+3012.3333686 call(s)/s
+=== ujson encode ===
+3577.06772833 call(s)/s
+
+
+Python 3.3.2:
+
+=== json decode ===
+2069.6335316728187 call(s)/s
+=== json encode ===
+2585.9709836119646 call(s)/s
+=== simplejson decode ===
+2004.550487282183 call(s)/s
+=== simplejson encode ===
+3303.4942986167603 call(s)/s
+=== ujson decode ===
+2742.9920944902096 call(s)/s
+=== ujson encode ===
+3359.7870014183936 call(s)/s
+
+
+PHP(cli) 5.5.5:
+
+=== json decode ===
+1369.4426135757 call(s)/s 
+=== json encode ===
+3426.1793680275 call(s)/s 
+
+
+PHP(cli) 5.4.21:
+
+=== json decode ===
+1396.616055163 call(s)/s 
+=== json encode ===
+3477.1469730913 call(s)/s 
+
+
+PHP(cli) 5.3.27:
+
+=== json decode ===
+1367.840483537 call(s)/s 
+=== json encode ===
+3663.4719969695 call(s)/s
+
+
+Go 1.1.2:
+
+=== json decode(interface{}) ===
+732.167774 call(s)/s
+=== json encode(interface{}) ===
+611.684927 call(s)/s
+
+Thanks:
+* goenv: https://bitbucket.org/ymotongpoo/goenv
+* pyenv: https://github.com/yyuu/pyenv
+* phpenv: https://github.com/CHH/phpenv
+* php-build: https://github.com/CHH/php-build
+* simplejson: https://pypi.python.org/pypi/simplejson/
+* ujson: https://pypi.python.org/pypi/ujson/
